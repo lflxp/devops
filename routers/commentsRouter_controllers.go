@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:ObjectController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:ObjectController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
@@ -15,7 +15,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:ObjectController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:ObjectController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
@@ -23,7 +23,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:ObjectController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:ObjectController"],
 		beego.ControllerComments{
 			Method: "Get",
 			Router: `/:objectId`,
@@ -31,7 +31,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:ObjectController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:ObjectController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:objectId`,
@@ -39,7 +39,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:ObjectController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:ObjectController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:ObjectController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:objectId`,
@@ -47,7 +47,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:TestController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:TestController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
@@ -55,7 +55,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:TestController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:TestController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
@@ -63,7 +63,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:TestController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:TestController"],
 		beego.ControllerComments{
 			Method: "Get",
 			Router: `/:objectId`,
@@ -71,7 +71,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:TestController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:TestController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:objectId`,
@@ -79,7 +79,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:TestController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:TestController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:objectId`,
@@ -87,7 +87,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
@@ -95,7 +95,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "GetAll",
 			Router: `/`,
@@ -103,7 +103,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Get",
 			Router: `/:uid`,
@@ -111,7 +111,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:uid`,
@@ -119,7 +119,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:uid`,
@@ -127,7 +127,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Login",
 			Router: `/login`,
@@ -135,7 +135,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/boltDb/controllers:UserController"],
+	beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"] = append(beego.GlobalControllerRouter["github.com/lflxp/devops/controllers:UserController"],
 		beego.ControllerComments{
 			Method: "Logout",
 			Router: `/logout`,

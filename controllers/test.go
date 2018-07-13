@@ -3,7 +3,7 @@ package controllers
 import (
 	"encoding/json"
 
-	"github.com/lflxp/boltDb/models"
+	"github.com/lflxp/devops/models"
 )
 
 // Operations about object

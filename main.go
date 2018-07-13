@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/lflxp/boltDb/pkg/db"
-	_ "github.com/lflxp/boltDb/routers"
+	"github.com/lflxp/devops/pkg/db"
+	_ "github.com/lflxp/devops/routers"
 
 	"github.com/astaxie/beego"
 )

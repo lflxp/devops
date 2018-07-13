@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"github.com/lflxp/boltDb/controllers"
+	"github.com/lflxp/devops/controllers"
 
 	"github.com/astaxie/beego"
 )

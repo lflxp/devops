@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	bolt "github.com/coreos/bbolt"
-	"github.com/lflxp/boltDb/pkg/db"
+	"github.com/lflxp/devops/pkg/db"
 )
 
 type Data struct {
