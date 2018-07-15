@@ -34,6 +34,11 @@ https://www.progville.com/go/bolt-embedded-db-golang/
 4. webterminal
 
 * 4.1 webTerminal
+* https://github.com/gorilla/websocket/tree/master/examples/echo
+* https://github.com/urfave/cli
+* https://github.com/elazarl/go-bindata-assetfs
+* https://github.com/kr/pty
+* https://github.com/yudai/gotty
 
 5. tree
 
