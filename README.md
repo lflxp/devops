@@ -39,6 +39,7 @@ https://www.progville.com/go/bolt-embedded-db-golang/
 * https://github.com/elazarl/go-bindata-assetfs
 * https://github.com/kr/pty
 * https://github.com/yudai/gotty
+* https://github.com/joewalnes/websocketd
 
 5. tree
 
